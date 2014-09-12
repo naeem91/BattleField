@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Battle Field 1.0</title>
+        <meta name="description" content="Battlefield 1.0, browser based experimental game. No plugin requird.">
+        <meta name="author" content="Naeem Ilyas">
+        
+		<script type="text/javascript" src="js/game.js"></script>
+        <!--<script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/ui.js"></script>
+        <link rel="stylesheet" href="css/style.css" />-->
+		<style>
+			#game-view
+			{
+				width:700px;				
+				margin:2em 27em;
+				height:500px;
+				position:relative;
+				overflow:hidden;
+			}
+			#game-view span
+			{
+				width:143px;
+				height:69px;
+				position:absolute;
+			}
+			#game-view span#start
+			{				
+				left:188px;
+				top:302px;
+			}
+			#game-view span#help
+			{				
+				left:370px;
+				top:302px;
+			}
+			#game-view span:hover
+			{				
+				border:1px solid #cc0;
+						
+			}
+			#score-view
+			{							
+				width:200px;
+				height:500px;
+				position:absolute;
+				left:235px;
+				top:32px;
+				color:#000;			
+			}
+			#score-view p
+			{
+				padding-left:10px;
+				font-size:1.5em;
+				background:url(images/field3.jpg) no-repeat;
+			}
+			.score
+			{
+				font-size:3em;
+			}
+			#game-view span#winlose
+			{
+				left:180px;
+				top:345px;
+				width:270px;
+				height:70px;
+			}
+			#score-view input
+			{
+				background-color:#F93;
+				color:#FFF;
+				font-size:0.7em;
+				font-weight:bold;
+				border-radius:15px;
+				height:4em;
+			}			
+		</style>
+	</head>
+	<body>
+		<div id="game-view">
+			
+			
+		</div>
+        <div id="score-view">
+        
+        </div>
+        
+	</body>
+</html>
